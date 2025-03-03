@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <tittle>cvbnm</tittle>
+<!--inline-->
+<style> 
+  body {
+    background-color: some color; <!--painting all website-->
+    color: some color; <!--painting only text-->
+  }
+</style>
+<!--you can write only tags and write in curly braces {} and color-->
+
+<!--internal-->
+<body style="background-color: some color;">
+  <!--painting all website--> 
+</body>
+<h1 style="color: some color;"> some text </h1>
+<!--painting only text--> 
+
+<!--external-->
+<!--create a new file and paste there all INTERNAL parameters and in the first file you need to write below <title> that, what written on 29th string-->
+<!--new file. for example:-->
+<body style="background-color: some color;">
+</body>
+<h1 style="color: some color;"> some text </h1>
+
+<!--the first file-->
+<link rel="stylesheet" href="style.css"> <!--name of the second file-->
+</head>
+ <!--text styling-->
+<body style="background-color:antiquewhite;">
+    <h1>xcvbn</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi rerum dicta omnis ipsum facere in, est nam. Deleniti vitae quasi distinctio dolores molestias libero odit doloribus ad unde. Dignissimos, possimus?</p>
+    </body>
+
+    <!--you need to create a new , third file-->
+    <!--new file-->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta http-equiv="">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> <!--the link of styling parameters-->
+</head>
+<body>
+    <h1> some text</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor aspernatur enim tempore magni commodi. Eum corporis, sunt ipsam aliquam delectus doloremque, impedit beatae laudantium dolorum recusandae quidem, deserunt esse nulla!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque numquam ipsam dicta quis sit consequuntur quod minus id aperiam nulla dolorum asperiores, sunt eveniet expedita aliquam voluptate ut at repellendus!</p>
+<!--the text wich will styling, just a convinient way-->
+<!--if you will change the parameters in second file (style.css) it will be changing on both of the pages, files-->
+<p id="p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, omnis sunt similique maiores quis dolorem aliquam assumenda unde delectus aperiam error illo, porro obcaecati ea voluptatibus, odio repellendus blanditiis illum.</p>
+<!--in the second file(style.css)-->
+#p1{
+  color: some color;
+}
+<!--that atributes changes the color of the text-->
+
+<!--how to do it in the classes-->
+<p id="p1" class="name of the class1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat incidunt ea aliquam iusto nesciunt nemo odit quasi recusandae ipsam, velit alias excepturi voluptates officiis amet repellendus tempore nam quam perferendis!</p>
+<p id="p2" class="name of the class2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat incidunt ea aliquam iusto nesciunt nemo odit quasi recusandae ipsam, velit alias excepturi voluptates officiis amet repellendus tempore nam quam perferendis!</p>
+<!--that change classes 1 and classes 2 colors-->
+
+<!--fonts-->
+<!--(in file style.css)-->
+p {
+  font-family: "some fonts name1" some fonts name2;
+<!--you can write 2 or 3 fonts if a website would not support the one of this fonts-->
+font-style:<!---italic, bold etc-->;
+font-weight: some digits;
+  font-weight:<!-- bold etc -->
+  text-decoration:<!--some color may be wavy, dotted underline-->;
+  font-size: <!--some digits of pixels--> 18px;
+
+}
+<head>
+  <link rel="stylesheet" href="style.css">
+ <!-- <link href="some fonts link" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> <!--the link of font-->
+
+  <!--borders-->
+  <!--in second file(style.css)-->
+  h1{
+    border-top-style: <!--some strings style-->; <!--it can be on the bottom, right and left of the websites title-->
+    border-top-width: <!--some pixels-->; 
+    border-top-color: <!--some color-->; 
+  }
+
+  p{
+    border-style: <!--some borders style-->; <!--the style of border-->
+    border-width: 5px <!--some digit of pixels-->; <!--width of border-->
+    border-color: <!--some color-->; <!--borders color-->
+    border-radius: <!--some digit of pixels-->; <!--borders edges rounded-->
+    padding:  <!--some digit of pixels-->; <!--a little bit space between the text and border-->
+  }
+
+  <!--backgrounds-->
+   <!--in second file(style.css)-->
+   body {
+    background-color: <!--some color-->
+    <!--the gradient-->
+ backgrond: linear-gradient(<!--2 or more colors-->);
+ background-repeat: no-repeat; <!--to the gradient will be only on 1 section, not on the whole site-->
+ backgrond-attachment: fixed; <!--to he gradient would expand on the whole site-->
+   }
+
+   body {
+    backgrond: linear-gradient(to <!--top, bottom, left, rignt and etc.-->); <!--so that the colors could change their places-->
+   }
+<!--so that the gradient background would be only on the text and paragraghs-->
+   h1{
+    backgrond: linear-gradient(<!--2 or more colors-->);
+ background-repeat: no-repeat; <!--to the gradient will be only on 1 section, not on the whole site-->
+ backgrond-attachment: fixed; <!--to he gradient would expand on the whole site-->
+ backgrond: linear-gradient(to <!--top, bottom, left, rignt and etc.-->); <!--so that the colors could change their places-->
+   }
+   p{
+    backgrond: linear-gradient(<!--2 or more colors-->);
+    background-repeat: no-repeat; <!--to the gradient will be only on 1 section, not on the whole site-->
+    backgrond-attachment: fixed; <!--to he gradient would expand on the whole site-->
+    backgrond: linear-gradient(to <!--top, bottom, left, rignt and etc.-->); <!--so that the colors could change their places-->
+   }
+
+   body {
+    background-image: url("<!--some images link-->"); <!--and on the background will appear this image what you have already added-->
+    background-position: center; <!--the image will expand in the middle of the website-->
+    backgroun-cover: cover; <!--the image will shrink and posted exactly-->
+   }
+
+   <!--margin(dopusk)-->
+   <div id="box1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel officia earum magni, consectetur accusantium tempora omnis, cumque esse corporis eos quod sit dolore provident deserunt fuga voluptate neque dignissimos voluptatum?</div>
+   <div id="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quos magnam nam eius dignissimos voluptates, suscipit animi eveniet soluta nobis quis minus labore laudantium quia sed veritatis ullam blanditiis atque.</div>
+
+   <!--go to the second file-->
+   <!--in the style.css-->
+
+   body{
+    border: <!--some pixels and borders styling-->;
+    margin: <!--some digit of pixels-->; <!--margin - the space between boxes and edges-->
+   }
+   #box1{
+    border: <!--some pixels and borders styling-->;
+    width: <!--some digit in pixels-->;
+    height:  <!--some digit in pixels-->;
+    font-size: <!--some digit in pixels-->;
+    backgrond: <!--some color-->;
+  margin-top: <!--some digit in pixels-->; <!--so we can write and left, right, bottom and etc., but so that do not write all of this features, we can just write, what written on the string 150-->
+ margin: <!--some digit in pixels-->;
+
+ <!--also we can use the percents %-->
+ margin-top: <!--some digit in PERCENTS-->;
+
+ margin-top: auto; <!--we can use "auto" to replace the boxes to the edges of site-->
+
+ margin-right: auto;
+ margin-left: auto; <!--the box will stay, independet you opening the window or not-->
+}
+   #box2{
+    border: <!--some pixels and borders styling-->;
+    width: <!--some digit in pixels-->
+    height:  <!--some digit in pixels-->
+    font-size: <!--some digit in pixels-->
+    backgrond: <!--some color-->
+    padding: <!--some digit in pixels-->; <!--the space between text and boxes and the boxes sizes increases-->
+   }
+
+   <!--then you can click on the box and "inspact", there will be a diagram, which you can see the content of box-->
+   <!--margin = space AROUND an element-->
+
+
+   <!--float - the position of the elementt-->
+
+   <img src="some picture" width="some pixels">
+   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum dolores dicta nemo accusantium provident qui rerum quibusdam reprehenderit animi rem sapiente obcaecati et sed, quo odit dolorem, amet voluptas? Dignissimos?</p>
+  
+   <!--now we go to ge second file (style.css)-->
+
+   img{
+    float: left; <!--all images will gravitate towards the top left, right, top, bottom etc. corner of website-->
+  }
+ <!--again in the main file-->
+<div class="box"> box  </div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non obcaecati et rem repellat quia consectetur numquam cumque iusto hic, aut quae voluptatibus molestias delectus illum? Sunt quasi aspernatur adipisci.</p>
+
+<!--to style this box, we need to go in the second file, style.css again-->
+.box{
+  width: <!--some pixels-->;
+  height: <!--some pixels-->;
+  border:  <!--some pixels and style of border-->;
+  font-size: <!--some pixels-->;
+  text-align: center;
+  background:  <!--some color-->;
+  float: .box{
+    width: <!--some pixels-->;
+    height: <!--some pixels-->;
+    border:  <!--some pixels and style of border-->;
+    font-size: <!--some pixels-->;
+    text-align: center;
+    background:  <!--some side-->;
+  }
+  p{
+    clear:<!--some side or "both"-->;
+  }
+}
+
+<!--positions-->
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos cumque, temporibus accusamus id, earum illum, molestiae perspiciatis nulla quaerat reiciendis doloribus ullam. Dolores est ex sed iste maiores laudantium deleniti!</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos cumque, temporibus accusamus id, earum illum, molestiae perspiciatis nulla quaerat reiciendis doloribus ullam. Dolores est ex sed iste maiores laudantium deleniti!</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos cumque, temporibus accusamus id, earum illum, molestiae perspiciatis nulla quaerat reiciendis doloribus ullam. Dolores est ex sed iste maiores laudantium deleniti!</p>
+
+<div id="box1"></div>
+<div id="box2"></div>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos cumque, temporibus accusamus id, earum illum, molestiae perspiciatis nulla quaerat reiciendis doloribus ullam. Dolores est ex sed iste maiores laudantium deleniti!</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos cumque, temporibus accusamus id, earum illum, molestiae perspiciatis nulla quaerat reiciendis doloribus ullam. Dolores est ex sed iste maiores laudantium deleniti!</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos cumque, temporibus accusamus id, earum illum, molestiae perspiciatis nulla quaerat reiciendis doloribus ullam. Dolores est ex sed iste maiores laudantium deleniti!</p>
+
+<!--in the second file, style.css-->
+#box1{
+  border: <!--some number of pixels-->;
+  height: <!--some number of pixels-->;
+  width: <!--some number of pixels-->;
+  background-color: <!--some color-->;
+
+  position: static; <!--nothing new-->
+
+  position:relative;
+  top: <!--some number of pixels-->
+  left: <!--some number of pixels--> 
+  <!--due to such positions, box2 can enter behind box1 like how to enter tecture-->
+}
+
+#box1{
+  border: <!--some number of pixels-->;
+  height: <!--some number of pixels-->;
+  width: <!--some number of pixels-->;
+  background-color: <!--some color-->;
+  position: absolute;
+  top: <!--some pixels-->; <!--it can cover the other elements, even text-->
+  <!--fixed - when depte the picture, it will not change their place on the page-->
+  <!--the sticky, is on the counter, changed it places, only when, the images is an abroad of it places-->
+
+}
+
+<!--pseudo classes - a keyword added to a selector that species a special state of the selected elements-->
+ <a href="some link on the website"> <!--some websites link--> </a>
+
+ <!--in the second file(style.css)-->
+
+ a: link {
+  color: some color;
+}
+
+a: :visited{
+  color: some color; <!--change the links color-->
+}
+
+a:hover {
+  color: some color; <!--change the links color when you point on the link with cursor-->
+}
+
+a: active {
+  color: some color;  <!--change the color of link when you press on the link with mouse cursor-->
+}
+
+
+<!--then, here, in the first file we can create an button-->
+
+<button> name of button </button>
+
+<!--go to the style.css file again, and decorate the button-->
+button: hover {
+  background-color: some color;
+}
+button: active {
+  background-color: some color;
+}
+
+<!--now, in the first file, here, create some text-->
+<ul>
+  <li> some text1 </li>
+  <li> some text2 </li>
+  <li> some text3 </li>
+
+  <!--in style.css-->
+
+  li: nth-child(){ <!--you can write here, in () some number of string-->
+    background-color: some color;  
+  } <!--it will highlight the "n" numbers string-->
+
+  li: nth-child(even <!--you can write or even, or odd-->) {
+    background-color: some color;  <!--it will be highlighted every even or odd strings-->
+
+    li: nth-child(4n <!--for example-->){
+      background-color: some color;  <!--it will highlight the string which number you wrote, for example (4n), and after that, it will be highlighted every forth strings-->
+  }
+
+  <!--also you can write for example "5n+2" and etc.-->
+
+  <!--shadows-->
+  <!--in style.css-->
+  h1 {
+    text-shadow: n px <!--x-axis shadow--> n1 px  <!--y-axis shadow--> n2 px <!--shadows bluring--> some color;
+  }
+
+  h1 {
+    text-shadow: n px n1 px n2 px, n px n1 px n2 px some color; <!--so, you can also add a several shadows at the same time-->
+    box-shadow:n px n1 px n2 px some color; <!--the shadow of the text like a box, title-->
+  }
+
+  h1:hover {
+    box-shadow:n px n1 px n2 px some color; <!--if you add the shadow in the "hover" method, your shadow will appear only when you point on the text with mouse cursor-->
+  }
+</ul>
+
+  <!--icons-->
+  <head>
+ <!--you need to go and open https://fontawesome.com/, then create an icon-->
+ <link rel="stylesheet" href="style.css">
+ <!--copy and paste the kit code that you have created-->
+ <script src="https://kit.fontawesome.com/824dd6abd2.js" crossorigin="anonymous"></script>
+ <!--then, in file "icons" you can write something and find that what do you want-->
+  </head>
+ <body>
+  <i class="fa-solid fa-house"></i> <!--and you can do like that a several times-->
+  <i class="fa-regular fa-snowflake"></i>
+  <a href="some hyperlink"> <!--and when you click on the icon, it take you to this site-->
+  <i class="fa-brands fa-phoenix-framework"></i>
+  <!--to change the decoration of icons we need to go on second file (style.css)-->
+</a>
+ </body>
+
+ <!--transform-->
+ <div id="box1">some text</div>
+ <!--go in style.css-->
+ #box{
+  border: some px and style; 
+  width: n px; 
+  height: n px;
+  font-size: n px;
+  text-align: center;
+  backgrond: some color;
+  transform: translateX(n px); <!--in positive number it will transform to right, but with negative pixels it will move left-->
+  transform: translateY(n px); <!--in positive number it will transform to right, but with negative pixels it will move left-->
+  transform: translate(n px, n px); <!--you can write x translation and y translation at the same time-->
+  transform: rotateX(n deg); 
+  transform: rotateY(n deg); 
+  transform: rotateZ(n deg); 
+  transform: scaleX(some n number); <!--the width-->
+  transform: scaleY(some n number); <!--the width--> 
+  transform: scale(some n number, some n number2); <!--the width-->
+  transform: skewX(n deg);
+  transform: skewY(n deg);
+  transform: skew(n deg, n deg);
+  transform: matrix(n degX, n degY, n degX, n degY, n degX, n degY); <!--if all of parameters will be 0, the box will disappear-->
+  <!--matrix combines the following:
+  scaleX(), skewY(), skewX scaleY(), translateX(), translateY()-->
+ }
+
+ <!--animations-->
+ <div id="box1">some text</div>
+ <!--style.css-->
+ #box1 
+ {
+  width: n px;
+  height: n px;
+  background: some color;
+  font-size: n px;
+  text-align: center;
+
+  animation: name of frame;
+animation-plays-state: running; <!--speed up, or you canwrite "paused" and the animation will be paused on the begginig-->
+  animation-interation-count: infinite; <!--or numders-->
+  animation-delay<!--zaderzhka-->:n s <!--seconds-->
+  animation-timing-function:ease-in <!--begin slowly, but the end is quick, with "ease-out" it begins quickly, but in the end its slowly, and "ease" will be both, also "linear" the constant-->
+  animation-duration: n s;<!--seconds-->
+  <!--also you can put all of this in 1 string-->
+  animation: n s, linear 0s infinite running name of frame;
+
+ }
+
+ #box1:hover{
+  nimation: n s, linear 0s infinite running name of frame;
+ }
+
+ #box1:active{
+  nimation: n s, linear 0s infinite running name of frame;<!--nothing happening until you click on the box-->
+ }
+
+ @keyframes name of frames {
+from{margin-left: n %;}
+to{margin-left: n %;}
+
+}
+
+@keyframes myRotate{
+  n%{transform:rotationX(n deg)} <!--the box will round by his axis-->
+
+}
+@keyframes myRotate{
+n%{transform:rotationY(n deg)}
+}
+
+@keyframes myRotate{
+  n%{transform:rotationZ(n deg)}
+  }
+  @keyframes myOpacity{
+    n%{opacity:n s;} <!--disappearing-->
+    }
+    @keyframes myScale{
+      n%{transform: scale(n, n;)} <!--shrink and grow-->
+      }
+      @keyframes myColorChange{
+        n%{background-color: some color;} <!--on the begginig 0%, 20%, 40% and so on, it will change the colors-->>
+        }
+</head>
+</body>
+</html>
+
+</html>
